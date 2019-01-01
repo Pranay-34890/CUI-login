@@ -74,12 +74,12 @@ void delete_previous_data()
 						{
 							if(strcmp(pass,obj.getPassword())==0)
 							{
-							cout<<"Success"<<endl;
+							cout<<"\nSuccess"<<endl;
 							}
 						}
 						else
 						{
-						cout<<"Try Again"<<endl;
+						cout<<"\nTry Again"<<endl;
 						check();
 						}
 		}
@@ -103,9 +103,11 @@ int main()
 					case 1:
 					system("cls");
 					check();
-						//Enter your program's code here
 					break;
 					case 2:
+					system("cls");
+					check();
+					getch();
 					system("cls");
 					delete_previous_data();
 					new_data_entry();
