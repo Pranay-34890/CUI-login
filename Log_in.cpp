@@ -103,6 +103,7 @@ int main()
 					case 1:
 					system("cls");
 					check();
+						//Enter your program's code here
 					break;
 					case 2:
 					system("cls");
