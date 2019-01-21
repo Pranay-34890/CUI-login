@@ -1,3 +1,4 @@
+//Use MinGW compiler
 #include <iostream>
 #include<conio.h>
 #include <string.h>
